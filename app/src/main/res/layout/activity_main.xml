@@ -9,27 +9,30 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="This is the main launch screen and provides navigation to the other parts of the program."/>
+        style="@style/CustomStyle"
+        android:text="@string/this_is_the_main_launch_screen_and_provides_navigation_to_the_other_parts_of_the_program"/>
 
     <Button
         android:id="@+id/launchTop100RockSongs"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Top 100 Rock Songs"
-        android:layout_gravity="center_horizontal"/>
+        android:text="@string/top_100_rock_songs"
+        android:layout_gravity="center_horizontal"
+        style="@style/CustomStyle"/>
 
     <Button
         android:id="@+id/launchTop100RapSongs"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Top 100 Rap Songs"
-        android:layout_gravity="center_horizontal"/>
+        android:text="@string/top_100_rap_songs"
+        android:layout_gravity="center_horizontal"
+        style="@style/CustomStyle"/>
 
     <Button
         android:id="@+id/launchCurrentSongDetails"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Currently Playing Songs Details"
-        android:layout_gravity="center_horizontal"/>
-
+        android:text="@string/currently_playing_song_details"
+        android:layout_gravity="center_horizontal"
+        style="@style/CustomStyle"/>
 </LinearLayout>

@@ -15,10 +15,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Top100RockSongs" />
-        <activity android:name=".Top100RapSongs" />
-        <activity android:name=".CurrentSongDetails" />
-        <activity android:name=".BuySong"></activity>
+        <activity android:name=".Top100RockSongs" android:label="Top 100 Rock Songs"/>
+        <activity android:name=".Top100RapSongs" android:label="Top 100 Rap Songs"/>
+        <activity android:name=".CurrentSongDetails" android:label="Currently Playing Song" />
+        <activity android:name=".BuySong" android:label="Purchase Song" />
     </application>
 
 </manifest>
