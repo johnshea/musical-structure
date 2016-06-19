@@ -4,32 +4,36 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.sheajohnh.band.musicalstructure.MainActivity">
+    tools:context="com.sheajohnh.band.musicalstructure.CurrentSongDetails">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="This is the main launch screen and provides navigation to the other parts of the program."/>
+        android:text="This Activity will show details about the song that is currently playing." />
 
-    <Button
-        android:id="@+id/launchTop100RockSongs"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Top 100 Rock Songs"
+        android:text="An image of the artist would be shown.  This image would be loaded off the UI thread by using a library like Picasso or Glide."/>
+
+    <Button
+        android:id="@+id/playPauseSong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play/Pause"
         android:layout_gravity="center_horizontal"/>
 
     <Button
-        android:id="@+id/launchTop100RapSongs"
+        android:id="@+id/launchBuySong"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Top 100 Rap Songs"
+        android:text="Purchase Song"
         android:layout_gravity="center_horizontal"/>
 
     <Button
-        android:id="@+id/launchCurrentSongDetails"
+        android:id="@+id/launchHomeScreen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Currently Playing Songs Details"
+        android:text="Return to Launch Screen"
         android:layout_gravity="center_horizontal"/>
-
 </LinearLayout>

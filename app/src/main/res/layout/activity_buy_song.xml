@@ -3,33 +3,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="com.sheajohnh.band.musicalstructure.MainActivity">
+android:orientation="vertical"
+    tools:context="com.sheajohnh.band.musicalstructure.BuySong">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="This is the main launch screen and provides navigation to the other parts of the program."/>
+        android:text="This Activity will allow the user to purchase the currently playing song."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="APIs/Libraries: To enable the purchasing the following payments APIs will be considered: Stripe (https://stripe.com/), Square (https://squareup.com)"/>
 
     <Button
-        android:id="@+id/launchTop100RockSongs"
+        android:id="@+id/purchaseSong"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Top 100 Rock Songs"
+        android:text="Purchase Song"
         android:layout_gravity="center_horizontal"/>
 
     <Button
-        android:id="@+id/launchTop100RapSongs"
+        android:id="@+id/launchHomeScreen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Top 100 Rap Songs"
+        android:text="Return to Launch Screen"
         android:layout_gravity="center_horizontal"/>
-
-    <Button
-        android:id="@+id/launchCurrentSongDetails"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Currently Playing Songs Details"
-        android:layout_gravity="center_horizontal"/>
-
 </LinearLayout>

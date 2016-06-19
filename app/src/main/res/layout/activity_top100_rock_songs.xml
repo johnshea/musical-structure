@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sheajohnh.band.musicalstructure.Top100RockSongs">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This Activity will show the Top 100 Rocks Songs.  The user can click a song and it will start playing."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This screen would be done with a ListView and adapter instead of buttons for each song."/>
+
+    <Button
+        android:id="@+id/playRockSong1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Song #1"/>
+
+    <Button
+        android:id="@+id/playRockSong2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Song #2"/>
+
+    <Button
+        android:id="@+id/playRockSong3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Song #3"/>
+
+    <Button
+        android:id="@+id/launchHomeScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return to Launch Screen"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
